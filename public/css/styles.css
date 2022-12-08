@@ -422,6 +422,10 @@ footer h4 {
     padding: 6.5rem
   }
 
+  footer {
+    padding: 1rem;
+  }
+
   #nav #logo a {
     font-size: 1rem;
   }
