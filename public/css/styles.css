@@ -47,6 +47,7 @@ main {
 .nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #nav a {
@@ -345,4 +346,65 @@ footer h4 {
 .works-project {
   width: 100%;
   margin: auto;
+}
+
+@media (min-width: 900px) and (max-width: 1500px) {
+  .article_work {
+    width: 100%;
+    padding: 1rem;
+  }
+  .projects{
+    display: flex;
+  }
+
+  .projects-e-commerce {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media (min-width: 200px) and (max-width: 899px) {
+  .article_work {
+    width: 100%;
+    padding: 1rem;
+  }
+  .projects-e-commerce {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-img {
+    padding: 10rem
+  }
+}
+
+@media (min-width: 200px) and (max-width: 699px) {
+  #nav #logo {
+    margin-right: 0rem;
+  }
+  .projects-e-commerce {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #theme-switch {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .project-img {
+    padding: 6.5rem
+  }
+
+  #nav #logo a {
+    font-size: 1rem;
+  }
+
+
+  #nav-link  a{
+    font-size: 1rem;
+  }
 }
