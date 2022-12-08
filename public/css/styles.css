@@ -76,7 +76,7 @@ main {
 #theme-switch {
   background-color: var(--color-theme-switch);
   margin-left: 10rem;
-  border-radius: 10%;
+  border-radius: 0.5rem;
   padding: 0.8rem;
   cursor: pointer;
   z-index: 1000;
@@ -169,7 +169,7 @@ main {
   font-weight: 700;
   background-color: var(--color-theme-switch);
   border: none;
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 .article #portofolio-link {
   color: var(--color-bg);
@@ -244,14 +244,14 @@ main {
   color: var(--color-theme-switch);
   padding: 0.5rem;
   width: 30%;
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 
 .web-link a:hover {
   transition: 0.2s ease-in-out;
   background-color: rgba(252, 210, 139, 0.4);
   text-decoration: black underline;
-  border-radius: 10px;
+  border-radius: 0.5rem;
 
 }
 
@@ -429,6 +429,10 @@ footer h4 {
   #nav #logo a {
     font-size: 1rem;
     margin-right: 1rem;
+  }
+
+  #theme-switch {
+    padding: 0.2rem
   }
 
 
