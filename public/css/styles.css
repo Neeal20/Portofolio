@@ -135,7 +135,7 @@ main {
 
 /* Article Title */
 .article {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -253,6 +253,11 @@ main {
 
 /* ------------------ WORKS */
 
+.article_work {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .projects {
   display: flex;
   width: 100%;
@@ -287,7 +292,6 @@ main {
 
 .project-img {
   border-radius: .5rem;
-  width: 40%;
   padding: 11.6rem;
 
   margin-top: 2rem;
