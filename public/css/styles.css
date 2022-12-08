@@ -377,9 +377,32 @@ footer h4 {
   .project-img {
     padding: 10rem
   }
+
+  .article-presentation{
+    padding: 1.25rem
+  }
 }
 
 @media (min-width: 200px) and (max-width: 699px) {
+  main {
+    padding: 2rem;
+  }
+
+  #article-work {
+    justify-content: center;
+  }
+
+  #article-work--title {
+    margin: auto;
+  }
+
+  .article-description {
+    width: 100%;
+  }
+
+  .article {
+    width: 100%;
+  }
   #nav #logo {
     margin-right: 0rem;
   }
