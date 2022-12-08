@@ -1,9 +1,17 @@
 async function renderHomePage (req,res) {
-  res.render("home");
+  try {
+    res.render("home");
+  } catch (error) {
+    res.status(404).render("404");
+  }
 }
 
 async function renderProjectPage (req,res) {
-  res.render("project");
+  try {
+    res.render("project");
+  } catch (error) {
+    res.status(404).render("404");
+  }
 }
 
 module.exports = {
