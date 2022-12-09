@@ -385,7 +385,7 @@ footer h4 {
 
 @media (min-width: 200px) and (max-width: 699px) {
   main {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   #article-work {
@@ -462,6 +462,32 @@ footer h4 {
   
   footer{
     margin-top: 0;
+  }
+
+  .article-description {
+    margin-bottom: 2rem;
+}
+
+#article-work--description {
+  margin-bottom: .4rem;
+}
+
+#portfolio {
+  margin: auto;
+}
+
+.work {
+  margin-bottom: 1rem;
+}
+
+  .description-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: var(--color-text);
   }
 
   #nav-link  a{
