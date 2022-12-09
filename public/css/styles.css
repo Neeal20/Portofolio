@@ -441,6 +441,28 @@ footer h4 {
     justify-content: center;
 }
 
+  #article-bio--title {
+    width: 100%;
+  }
+  #article-hobbies--title {
+    width: 100%;
+  }
+
+  #article-web--title {
+    width: 100%;
+  }
+
+  #article-work--title {
+    width: 100%;
+  }
+
+  .article-presentation{
+      margin-bottom: 2rem;
+  }
+  
+  footer{
+    margin-top: 0;
+  }
 
   #nav-link  a{
     font-size: 1rem;
