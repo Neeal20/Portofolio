@@ -148,8 +148,7 @@ main {
 .article-title {
   width: 8%;
   color: var(--color-text);
-  border-bottom: 3px solid var(--color-borderBottom-article);
-}
+      }
 
 #article-work--description {
   margin-top: 0.8rem;
@@ -468,17 +467,13 @@ footer h4 {
     margin-bottom: 2rem;
 }
 
-#article-work--description {
-  margin-bottom: .4rem;
-}
+  #article-work--description {
+    margin-bottom: .4rem;
+  }
 
-#portfolio {
-  margin: auto;
-}
-
-.work {
-  margin-bottom: 1rem;
-}
+  #portfolio {
+    margin: auto;
+  }
 
   .description-text{
     display: flex;
@@ -492,6 +487,22 @@ footer h4 {
 
   .projects-ecommerce-title {
     margin-top: 1rem;
+  }
+  .border {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--color-borderBottom-article);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #strong1 {
+    margin-top: 0.5rem;
+  }
+
+  #hobbies1 {
+    margin-top: 0.8rem;
   }
 
   #nav-link  a{
