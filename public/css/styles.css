@@ -33,6 +33,7 @@ main {
   flex-direction: column;
 }
 
+
 /* * Nav Bar Style  */
 
 #nav {
@@ -278,6 +279,7 @@ main {
 .projects-e-commerce-details {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .projects-ecommerce-title {
@@ -409,6 +411,10 @@ footer h4 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .projects-e-commerce-details {
+    width: 100%;
   }
 
   #theme-switch {
