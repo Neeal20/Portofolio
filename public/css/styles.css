@@ -362,7 +362,12 @@ footer h4 {
     display: flex;
     justify-content: center;
   }
+}
 
+@media (min-width: 900px) and (max-width: 1000px) {
+  .article-presentation{
+    padding: 1.25rem 0.1rem;
+  }
 }
 
 @media (min-width: 200px) and (max-width: 899px) {
